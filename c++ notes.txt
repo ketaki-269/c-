@@ -1,0 +1,45 @@
+C++
+Developed by Bjarne Stroustrup.
+C++ is an object oriented language.
+C++ is a high-level, general-purpose programming language.
+It supports class and objects.
+
+First version- C++98
+Latest version- C++23
+
+new.cpp -> new.i -> new.obj -> compile -> execute 
+            |                                |
+          intermediate                    new.exe
+
+
+syntax-
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+   return 0;
+}
+
+# - hash/pound/ preprocesser directive
+# will run before compiler
+# used to make intermediate file.
+
+include- It is a folder.
+and iostream is its header file
+this file include -cout<<, cin>>
+
+{ cout<<,cin>> are the functions of iostream ,iostream  is the header file of include,
+and include is the folder, and to convert this folder into bit we use #.}
+
+using - Its keyword
+namespace - it is use for nameconflict
+std- header file 
+;-terminal
+{ we use this line to use same thing without repeating it or with out rewriting. like we do not need to write std again again. }
+
+int main{} - from this line compiler use to read the code,.
+
+return 0;-  code execute successfully 
+            after this compiler do not read code except some cases
