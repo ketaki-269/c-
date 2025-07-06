@@ -43,3 +43,80 @@ int main{} - from this line compiler use to read the code,.
 
 return 0;-  code execute successfully 
             after this compiler do not read code except some cases
+
+
+
+
+
+
+16:58 04-07-2025
+
+Tokens 
+keywords-         Predefines words  main, int, include
+identifier-       variable name , function name , class name 
+Puncuators-       special symbol
+Constant-         not going to change like ( pi ki value  )
+Operator-        (,),@,#,!,+ %
+String-          Sequence of character
+
+variable
+Its use to store data (in deep jab variable create kerte hai toh  vo  memoryme jake store hota hai with address)
+variable like int a=10  
+variable always start with _ and alphabet , 
+variable can not be keyword, special symbol , numerical value.
+
+16:33 05-07-2025
+Data type 
+1.int (integer)- 12,-23,42
+
+int a =10;
+int a ; //declare
+a= 10; //intialize
+2. float -  1.23 ,1.54, (takes 7to 8 values after decimal)
+3. double- 1.678766434,6.8764545 (takes 10-14 values after decimal)
+4. char(character) - '2','a''$' 
+5. bool (Boolean) - true(1) &false (0)
+
+
+
+ 
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operators 
+
