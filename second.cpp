@@ -11,7 +11,3 @@ cout<<a<<endl;   // endl is use to break the line
 cout<<"hello";
     
 }
-
-
-// jo bhi kerra pure week usko achese revise kerna hai or code kerke dekh na hai for sunday
-
