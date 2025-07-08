@@ -32,7 +32,7 @@ int main(){
     
     cout<<numeric_limits<bool>::max()<<endl;
     cout<<numeric_limits<bool>::min()<<endl;
-
+//climits - we use this for mostly char as limit do not works for char properly 
     cout<<INT_MAX<<endl;
     cout<<INT_MIN<<endl;
 
