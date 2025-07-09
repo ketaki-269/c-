@@ -7,11 +7,11 @@ int main()
 
 //    area of square 
 // formula of square - side*side
-//      {   int side;
-//         cout<<"Enter a side";
-//         cin>>side;
-//         cout<<side*side;
-//    }
+    //  {   int side;
+    //     cout<<"Enter a side";
+    //     cin>>side;
+    //     cout<<side*side;
+    // }
 
 //    area of triangle 
 // formula -b*h/2
@@ -25,13 +25,14 @@ int main()
  
 // area of rectangle
 // formula- w*l 
-    //    {  int w,l;
-    //     cout<<"Enter a width" <<endl;
-    //     cout<<"Enter a length"<< endl;
-    //     cin>> w>>l;
-    //     cout<<w*l;
-    //    }
-// area of circle 
+//        {  
+//         int w,l;
+//         cout<<"Enter a width" <<endl;
+//         cout<<"Enter a length"<< endl;
+//         cin>> w>>l;
+//         cout<<w*l;
+//        }
+// // area of circle 
 // formula - 3.14*r
 //  {
 //     int r;
@@ -47,8 +48,8 @@ int main()
      cout<<"Enter a radius" <<endl;
      cout<<"Enter a height"<< endl;
      cin>>r>>h;
-     cout<<2*3.14*r*h+2*3.14*(r*r);
+     cout<<2*3.14*r*h+2*3.14*(r*r);}
     //  cout<<2*3.14*r*(h+r); 
      
 
-    }
+    
