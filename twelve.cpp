@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 //unary operator
+// 2 types of unary prefix & postfix 
+// prefix - pre increment ,  pre decrement
+// Postfix -   post increment ,  post decrement
 
 
 int main()
@@ -27,3 +30,7 @@ int main()
 
 // 12-07-2025
 
+{
+
+   
+}
