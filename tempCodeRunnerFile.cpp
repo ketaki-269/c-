@@ -1,2 +1,1 @@
-int a= 5;
-   cout<<(++a)+(a++)<<endl;
+ find the number is  even or odd ?
