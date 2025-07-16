@@ -1,8 +1,10 @@
- int a= 2;
-//    cout<<(a++)+(++a)<<endl;
-//     int a= 3;
-//    cout<<(++a)+(++a)<<endl;
-//    int a= 5;
-//    cout<<(a++)+(++a)+(++a)<<endl;
-//    int a= 8;
-//    cout<<(++a)+(a++)+(a++)<<endl;   
+{
+    int num1,num2;
+    cout<<"Enter a number";
+    cin>>num1;
+    cout<<"Enter a number";
+    cin>>num2;
+
+    (num1<num2)?cout<<num1:cout<<num2;
+
+}

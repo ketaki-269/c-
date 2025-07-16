@@ -21,12 +21,12 @@ int main ()
 
 
 //  find the number is  even or odd ?
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    (num%2==0)?cout<<"even":cout<< "Odd";
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%2==0)?cout<<"even":cout<< "Odd";
+// }
 
 
 
@@ -48,16 +48,16 @@ int main ()
 
 
 // Find the smallest number between two?
-// {
-//     int num1,num2;
-//     cout<<"Enter a number";
-//     cin>>num1;
-//     cout<<"Enter a number";
-//     cin>>num2;
+{
+    int num1,num2;
+    cout<<"Enter a number";
+    cin>>num1;
+    cout<<"Enter a number";
+    cin>>num2;
 
-//     (num1<num2)?cout<<num1:cout<<num2;
+    (num1<num2)?cout<<num1:cout<<num2;
 
-// }
+}
 
 // find the number is divisible by 4 or not ?
 // {
