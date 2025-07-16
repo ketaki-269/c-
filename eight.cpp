@@ -25,13 +25,13 @@ int main()
  
 // area of rectangle
 // formula- w*l 
-//        {  
-//         int w,l;
-//         cout<<"Enter a width" <<endl;
-//         cout<<"Enter a length"<< endl;
-//         cin>> w>>l;
-//         cout<<w*l;
-//        }
+    //    {  
+    //     int w,l;
+    //     cout<<"Enter a width" <<endl;
+    //     cout<<"Enter a length"<< endl;
+    //     cin>> w>>l;
+    //     cout<<w*l;
+    //    }
 // // area of circle 
 // formula - 3.14*r
 //  {
