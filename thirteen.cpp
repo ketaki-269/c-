@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main ()
-
+//ternary operators
 
 
 // Find the greatest number between two?
