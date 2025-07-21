@@ -17,8 +17,8 @@ int main ()
 //     cout<<"Enter a Password";
 //     cin>>password;
 //     (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
-
 // }
+
 //  Check the number is positive or negative
 // {
 //     int num;
@@ -26,6 +26,7 @@ int main ()
 //     cin>>num;
 //     (num>=0)?cout<<"Positve":cout<<"Negative";
 // }
+
 //Check the person is eligiable for vote or not ?
 // {
 //     int num;
@@ -35,9 +36,19 @@ int main ()
 // }
 
 //Check the number is divisible by 2 and 4 both? 
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
+// }
+
+//Check the number is between 0-50?
+
+
+
+
+
+
+//Check the givenn charavter is vowel or constant?
+//Check the year is leap year or not?
