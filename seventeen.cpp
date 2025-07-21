@@ -12,13 +12,13 @@ int main ()
 // }
 
 //Check the givenn password is correct or not ?(password-1234)
-// {
-//     int num;
-//     cout<<"Enter a Password";
-//     cin>>num;
-//     (num==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
+{
+    int password;
+    cout<<"Enter a Password";
+    cin>>password;
+    (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
 
-// }
+}
 //  Check the number is positive or negative
 // {
 //     int num;
@@ -35,9 +35,9 @@ int main ()
 // }
 
 //Check the number is divisible by 2 and 4 both? 
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
+// }
