@@ -40,15 +40,24 @@ int main ()
 //     int num;
 //     cout<<"Enter a number";
 //     cin>>num;
-//     (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
+//     (num%2==0 && num%4==0)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
 
 //Check the number is between 0-50?
+// {
+//     int num;
+//     cout<<"Enter a number ";
+//     cin>>num;
+//     (num<=50)?cout<<"Between":cout<<"Not between";          
 
+// }
 
+//Check the givenn character is vowel or constant?
 
-
-
-
-//Check the givenn charavter is vowel or constant?
+{
+    int character;
+    cout<<"Enter a value";
+    cin>>character;
+    (character=aeiou)?cout<<"Vowel":cout<<"Constant";
+}
 //Check the year is leap year or not?
