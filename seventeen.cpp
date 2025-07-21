@@ -27,9 +27,17 @@ int main ()
 //     (num>=0)?cout<<"Positve":cout<<"Negative";
 // }
 //Check the person is eligiable for vote or not ?
+// {
+//     int num;
+//     cout<<"Enter age ";
+//     cin>>num;
+//     (num>=18)?cout<<"Eligiable":cout<<"Not Eligiable";
+// }
+
+//Check the number is divisible by 2 and 4 both? 
 {
     int num;
-    cout<<"Enter age ";
+    cout<<"Enter a number";
     cin>>num;
-    (num>=18)?cout<<"Eligiable":cout<<"Not Eligiable";
+    (num%2==0)?cout<<"Divisible" :cout<<" Not Divisible";
 }
