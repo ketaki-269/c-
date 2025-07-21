@@ -21,19 +21,19 @@ int main()
 
 // }
 
-{
+// {
    
-    int x=2;
-    int y =1;
-    int z;
-    z=x--;
-    x=z++;
-    y=--z;
-    cout<<x<<"\n";
-    cout<<y<<"\n";
-    cout<<z<<"\n";
+//     int x=2;
+//     int y =1;
+//     int z;
+//     z=x--;
+//     x=z++;
+//     y=--z;
+//     cout<<x<<"\n";
+//     cout<<y<<"\n";
+//     cout<<z<<"\n";
 
-}
+// }
 // {
 //  int x=-2;
 //     int y =1;
@@ -45,3 +45,15 @@ int main()
 //     cout<<y<<"\n";
 //     cout<<z<<"\n";
 // }
+
+{
+ int x=19;
+    int y =20;
+    int z;
+    z=++x;
+    y=--x;
+    x=z--;
+    cout<<x<<"\n";
+    cout<<y<<"\n";
+    cout<<z<<"\n";
+}
