@@ -12,11 +12,24 @@ int main ()
 // }
 
 //Check the givenn password is correct or not ?(password-1234)
+// {
+//     int num;
+//     cout<<"Enter a Password";
+//     cin>>num;
+//     (num==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
+
+// }
+//  Check the number is positive or negative
+// {
+//     int num;
+//     cout<<"Enter is Number";
+//     cin>>num;
+//     (num>=0)?cout<<"Positve":cout<<"Negative";
+// }
+//Check the person is eligiable for vote or not ?
 {
     int num;
-    cout<<"Enter a Password";
+    cout<<"Enter age ";
     cin>>num;
-    (num==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
-
+    (num>=18)?cout<<"Eligiable":cout<<"Not Eligiable";
 }
-//  Check the number is positive or negative
