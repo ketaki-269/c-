@@ -67,14 +67,14 @@ int main ()
 
 
 
-
 //Check the givenn character is vowel or constant?
 {
     char character;
     cout<<"Enter a character" ;
     cin>>character;
-    (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' )?cout<<"Vowel":cout<<"Constant";
-}
+    (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' || character == 'A' || character == 'E' || character =='I' ||character == 'O' || character =='U'
+)?cout<<"Vowel":cout<<"Constant";
+}   
 
 // 22-07-2025
 
