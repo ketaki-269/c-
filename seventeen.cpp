@@ -73,7 +73,24 @@ int main ()
     char character;
     cout<<"Enter a character" ;
     cin>>character;
-    (character == 'a' || 'e' || 'i' || 'o' || 'u' )?cout<<"Vowel":cout<<"Constant";
+    (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' )?cout<<"Vowel":cout<<"Constant";
 }
 
 // 22-07-2025
+
+//Check the ATM pin is correct or not (pin is 1234)?
+// {
+//     int password;
+//     cout<<"Enter a ATM Password";
+//     cin>>password;
+//     (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
+// }
+//Check the person is pass or fail (passing marks is 33)?
+// {
+//     int num;
+//     cout<<"Enter a number ";
+//     cin>>num;
+//     (num<=33)?cout<<"Fail":cout<<"Pass";          
+
+// }
+
