@@ -68,13 +68,13 @@ int main ()
 
 
 //Check the givenn character is vowel or constant?
-{
-    char character;
-    cout<<"Enter a character" ;
-    cin>>character;
-    (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' || character == 'A' || character == 'E' || character =='I' ||character == 'O' || character =='U'
-)?cout<<"Vowel":cout<<"Constant";
-}   
+// {
+//     char character;
+//     cout<<"Enter a character" ;
+//     cin>>character;
+//     (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' || character == 'A' || character == 'E' || character =='I' ||character == 'O' || character =='U'
+// )?cout<<"Vowel":cout<<"Constant";
+// }   
 
 // 22-07-2025
 
@@ -91,6 +91,42 @@ int main ()
 //     cout<<"Enter a number ";
 //     cin>>num;
 //     (num<=33)?cout<<"Fail":cout<<"Pass";          
-
 // }
 
+//Check the number is divisible by 2 and above 50?
+
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
+// }
+//Check the value is divisible  8 and 10 or not?
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+// }
+//Check the value is between 50-100?
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num>=50 && num<=100)?cout<<"Between":cout<<"Not Between";
+// }
+
+//check the greatest between three numbers?
+{
+    int a;
+    int b;
+    int c;
+    cout<<"Enter a";
+    cin>>a;
+    cout<<"Enter b";
+    cin>>b;
+    cout<<"Enter c";
+    cin>>c;
+    
+
+}
