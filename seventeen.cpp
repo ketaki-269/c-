@@ -53,7 +53,6 @@ int main ()
 // }
 
 //Check the givenn character is vowel or constant?
-
 {
     int character;
     cout<<"Enter a value";
