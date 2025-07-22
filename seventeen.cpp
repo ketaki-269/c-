@@ -53,6 +53,9 @@ int main ()
 // }
 
 //Check the year is leap year or not?
+if the year is divisible by 4 then its a leap year.
+and if the year is divisible by both 4 and 100 then its not a leap year
+Buut the year is divisible by 4,100 and 400 then it is leap year
 {
     int year;
     cout << "Enter a year: ";
