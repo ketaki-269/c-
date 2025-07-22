@@ -61,7 +61,7 @@ int main ()
 //     int year;
 //     cout << "Enter a year: ";
 //     cin >> year;
-//     ((year % 400 == 0 && year %4==0  && year%100==0) || (year % 4 == 0 && year % 100 != 0)) ?
+//     ((year % 400 == 0 && year % 4==0  && year % 100==0) || (year % 4 == 0 && year % 100 != 0)) ?
 //         cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
 // }
 
@@ -75,3 +75,5 @@ int main ()
     cin>>character;
     (character == 'a' || 'e' || 'i' || 'o' || 'u' )?cout<<"Vowel":cout<<"Constant";
 }
+
+// 22-07-2025
