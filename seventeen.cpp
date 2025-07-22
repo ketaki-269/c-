@@ -52,11 +52,19 @@ int main ()
 
 // }
 
-//Check the givenn character is vowel or constant?
-{
-    int character;
-    cout<<"Enter a value";
-    cin>>character;
-    (character=aeiou)?cout<<"Vowel":cout<<"Constant";
-}
 //Check the year is leap year or not?
+{
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
+    ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) ?
+        cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
+}
+
+//Check the givenn character is vowel or constant?
+// {
+//     char character;
+//     cout<<"Enter a character";
+//     cin>>character;
+//     (character == 'a' || 'e' || 'i' || 'o' || 'u' )?cout<<"Vowel":cout<<"Constant";
+// }
