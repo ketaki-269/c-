@@ -57,34 +57,21 @@ int main ()
 // and if the year is divisible by both 4 and 100 then its not a leap year
 // But the year is divisible by 4,100 and 400 then it is leap year
 
-{
-    int year;
-    cout << "Enter a year: ";
-    cin >> year;
-    ((year % 400 == 0 && year %4==0  && year%100==0) || (year % 4 == 0 && year % 100 != 0)) ?
-        cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+// {
+//     int year;
+//     cout << "Enter a year: ";
+//     cin >> year;
+//     ((year % 400 == 0 && year %4==0  && year%100==0) || (year % 4 == 0 && year % 100 != 0)) ?
+//         cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
+// }
 
 
 
 
 //Check the givenn character is vowel or constant?
-// {
-//     char character;
-//     cout<<"Enter a character";
-//     cin>>character;
-//     (character == 'a' || 'e' || 'i' || 'o' || 'u' )?cout<<"Vowel":cout<<"Constant";
-// }
+{
+    char character;
+    cout<<"Enter a character" ;
+    cin>>character;
+    (character == 'a' || 'e' || 'i' || 'o' || 'u' )?cout<<"Vowel":cout<<"Constant";
+}
