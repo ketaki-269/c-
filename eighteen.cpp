@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main ()
-// If else start
+// If else start Questions
 
 //1  find the number is divisible by 10 or not ?
 // {
