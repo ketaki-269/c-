@@ -57,6 +57,15 @@ int main ()
 // and if the year is divisible by both 4 and 100 then its not a leap year
 // But the year is divisible by 4,100 and 400 then it is leap year
 
+// basic concept - har 4 sal me ata hai toh 4 se divide hojainga
+// {
+//     int year;
+//     cout << "Enter a year: ";
+//     cin >> year;
+//     (year%4==0)?cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
+// }
+
+// har tarike ke number  ko input lene ke liye ye code 
 // {
 //     int year;
 //     cout << "Enter a year: ";
@@ -113,10 +122,11 @@ int main ()
 //     int num;
 //     cout<<"Enter a number";
 //     cin>>num;
-//     (num>=50 && num<=100)?cout<<"Between":cout<<"Not Between";
+//     (num>=50 && num<=100)?cout<<"InBetween":cout<<"Not Between";
 // }
 
 // check the greatest between three numbers?
+// In this code we use ternary operator inside ternary operators 
 {
     int a,b,c;
     cout<<"Enter a Number: ";
@@ -129,6 +139,7 @@ int main ()
 }
 
 // check the smallest between three numbers?
+// In this code we use ternary operator inside ternary operators 
 // {
 //     int a,b,c;
 //     cout<<"Enter a Number: ";
@@ -139,3 +150,7 @@ int main ()
 //     cin>>c;
 //     (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
 // }
+
+
+
+// As in this code we have to apply multiple conditions and it may give error, so toh resolve this we use if else 
