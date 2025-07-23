@@ -127,9 +127,10 @@ int main ()
     cin>>b;
     cout<<"Enter c";
     cin>>c;
+    (a>b>c)?cout<<"Greater":cout<<"Not Greater";
 }
-{
-    int a =10;
-   int b=20;
- (a>b)?cout<<"Greater":cout<<"Not Greater";
-}
+// {
+//     int a =10;
+//    int b=20;
+//  (a>b)?cout<<"Greater":cout<<"Not Greater";
+// }
