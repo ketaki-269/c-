@@ -44,17 +44,12 @@ int main{} - from this line compiler use to read the code,.
 return 0;-  code execute successfully 
             after this compiler do not read code except some cases
 
-
-
-
-
-
 16:58 04-07-2025
 
-Tokens 
+Tokens -  A smallest and individual unit of program is called as tokens
 keywords-         Predefines words  main, int, include
 identifier-       variable name , function name , class name 
-Puncuators-       special symbol
+Puncuators or separator  -       special symbol
 Constant-         not going to change like ( pi ki value  )
 Operator-        (,),@,#,!,+ %
 String-          Sequence of character
@@ -77,46 +72,369 @@ a= 10; //intialize
 4. char(character) - '2','a''$' 
 5. bool (Boolean) - true(1) &false (0)
 
+Questions
 
-
+// Q1. What will be the output of this code?
+{
+   int a = 7, b = 2;
+int result = a / b;
+cout << result;
  
+}
 
-+
+// Q 2. What happens if you store a decimal number in an int variable?
+{
+  int x = 7.8;
+cout << x;
+  
+}
 
+// 3. Predict the output and explain: 
+{
+int a = 2147483647; // Max value for 32-bit int
+a = a + 1;
+cout << a;
+}
 
+// Q4. Write a simple code to find if a number is even or odd using int.
+{
+int num = 9;
+if (num % 2 == 0)
+    cout << "Even";
+else
+    cout << "Odd";
+}
 
+16:39 07-07-2025
+Address ,Size Limit of datatypes-
+Address-> variable   we use &-> ampersent or address of
+like -  int a=10;
+        cout<<&a<<endl;
 
+Size--> datatype
+like- cout<<sizeof(int)<<endl;
+      cout<<sizeof(float)<<endl;
+      cout<<sizeof(double)<<endl;
+      cout<<sizeof(char)<<endl;
+      cout<<sizeof(bool)<<endl;
 
+//limit-> datatype ( for this we should first include <limits> in header file )
+like- cout<<numeric_limits<int>::max()<<endl;
+      cout<<numeric_limits<int>::min()<<endl;
+    
+      cout<<numeric_limits<float>::max()<<endl;
+      cout<<numeric_limits<float>::min()<<endl;
+    
+      cout<<numeric_limits<bool>::max()<<endl;
+      cout<<numeric_limits<bool>::min()<<endl;
 
+//climits - we use this for mostly char as limit do not works for char properly .
+like -    cout<<INT_MAX<<endl;
+          cout<<INT_MIN<<endl;
 
+          cout<<CHAR_MAX<<endl;
+          cout<<CHAR_MIN<<endl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+13:40 08-07-2025
 Operators 
+Arthematic /,*,-,+,%
+#include <iostream>
+using namespace std;
 
+int main() 
+    {
+    int a,b;
+    cout<<"Enter a number : ";
+    cin>>a;
+    cout<<"Enter a number : ";
+    cin>>b;
+    cout<<a+b;
+
+     return 0;
+}
+
+13:52 10-07-2025
+Assignment +=,-=,
+#include <iostream>
+using namespace std;
+//Assignment operator
+int main()
+{
+   int a =10;
+   int b=20;
+//    cout<<a<<endl;
+    a=a+b;
+   cout<<a<<endl;
+   a+=b;
+   cout<<a<<endl;
+   a-=b;
+   cout<<a<<endl;
+   a*=b;
+   cout<<a<<endl;
+   a/=b;
+   cout<<a<<endl;
+   a%=b;
+   cout<<a<<endl;
+
+}
+relational <,>,>=,<=,==,!= its use in conditional statements 
+#include <iostream>
+using namespace std;
+//Relational  operator
+int main()
+{
+   int a =10;
+   int b=20;
+   cout<<(a<b)<<endl;    //less than
+   cout<<(a>b)<<endl;   //greater than 
+   cout<<(a<=b)<<endl;    //less than or eual too
+   cout<<(a>=b)<<endl;     //greater than or equal too 
+   cout<<(a==b)<<endl;     //equal too
+    cout<<(a!=b)<<endl;   //!= not equal too
+}
+logical   && ,||,!
+#include <iostream>
+using namespace std;
+//Logical  operator
+
+ except 0 all values are true even negative values also 
+int main()
+ {
+    cout<<(1&&0)<<endl;
+    cout<<(1&&1)<<endl;
+    cout<<(21&&77)<<endl;
+    cout<<(1||0)<<endl;
+    cout<<(!60)<<endl;
+ }
+
+13:59 10-07-2025
+Bitwise 
+Ternary if else ke Pehle padhenge abhi nhi
+17:00 11-07-2025
+Binary - arthemetic , logical , assignment, bitwise,relational
+Ternary - 
+Unary ---------
+prefix - pre increment ++a 
+ex- int a=10;
+cout<<(++a);            o/p-11
+
+         pre decrement --a
+ex- int a=10;
+cout<<(--a);             o/p - 9
+
+Postfix -post increment a++
+ex- int a=10;
+cout<<(a++);            o/p-10
+cout<<a;                o/p-11
+
+         post decrement a--
+ex- int a=10;
+cout<<(a--);           o/p- 10
+cout<<a;               o/p- 9
+
+12/07/2025
+
+ternary operator
+
+16/7/2025
+ by other sir
+
+
+what is variable - it refer the memoryaddress  of datatype.
+
+datatype is different type of data is stored in data.
+Tokens -  A smallest and individual unit of program is called as tokens.
+
+keywords-         Predefines words  main, int, include
+
+
+identifier-      variable name , function name , class name 
+
+
+Puncuators or separator  -       special symbol like ; , /n,/t,{,}
+
+
+Constant-         not going to change like ( pi ki value  )
+
+
+Operator-        (,),@,#,!,+ %
+
+
+String-         Its datatype , Sequence of character
+
+
+
+why,what and how? on all topic
+16:43 17-07-2025
+
+Bitwise operator
+
+16:49 21-07-2025
+q-1 Check the given password is correct or not ?(Password is 1234)
+{
+    int password;
+    cout<<"Enter a Password";
+    cin>>password;
+    (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
+}
+q-2 Check the person is eligible for vote or not?
+{
+    int num;
+    cout<<"Enter age ";
+    cin>>num;
+    (num>=18)?cout<<"Eligiable":cout<<"Not Eligiable";
+}
+q3- Check the number is negative or not ?
+{
+    int num;
+    cout<<"Enter is Number";
+    cin>>num;
+    (num>=0)?cout<<"Positve":cout<<"Negative";
+}
+
+q-4 Check the number is dividible by 10  or not ?
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+}
+
+
+Q5 Check the number is divisible by 2 and 4 both? 
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num%2==0 && num%4==0)?cout<<"Divisible" :cout<<" Not Divisible";
+}
+
+Q 6 Check the number is between 0-50?
+{
+    int num;
+    cout<<"Enter a number ";
+    cin>>num;
+    (num<=50)?cout<<"Between":cout<<"Not between";          
+
+}
+
+ Q 7 Check the year is leap year or not?
+if the year is divisible by 4 then its a leap year.
+and if the year is divisible by both 4 and 100 then its not a leap year
+But the year is divisible by 4,100 and 400 then it is leap year
+
+{
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
+    ((year % 400 == 0 && year % 4==0  && year % 100==0) || (year % 4 == 0 && year % 100 != 0)) ?
+        cout << year << " is a Leap Year." : cout << year << " is NOT a Leap Year.";
+}
+
+
+
+Q 8Check the givenn character is vowel or constant?
+{
+    char character;
+    cout<<"Enter a character" ;
+    cin>>character;
+    (character == 'a' || character == 'e' || character =='i' ||character == 'o' || character =='u' || character == 'A' || character == 'E' || character =='I' ||character == 'O' || character =='U'
+)?cout<<"Vowel":cout<<"Constant";
+}   
+
+22-07-2025
+
+Q 1 Check the ATM pin is correct or not (pin is 1234)?
+{
+    int password;
+    cout<<"Enter a ATM Password";
+    cin>>password;
+    (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
+}
+Q 2 Check the person is pass or fail (passing marks is 33)?
+{
+    int num;
+    cout<<"Enter a number ";
+    cin>>num;
+    (num<=33)?cout<<"Fail":cout<<"Pass";          
+}
+
+Q 3 Check the number is divisible by 2 and above 50?
+
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
+}
+Q 4 Check the value is divisible  8 and 10 or not?
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+}
+Q 5 Check the value is between 50-100?
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num>=50 && num<=100)?cout<<"Between":cout<<"Not Between";
+}
+
+ Q 6 check the greatest between three numbers?
+
+{
+    int a,b,c;
+    cout<<"ENter a Number: ";
+    cin>>a;
+    cout<<"ENter a Number: ";
+    cin>>b;
+    cout<<"ENter a Number: ";
+    cin>>c;
+    (a>b && a>c)?cout<<a:(b>a && b>c)?cout<<b:cout<<c;
+}
+
+Q7 check the smallest between three numbers?
+{
+    int a,b,c;
+    cout<<"ENter a Number: ";
+    cin>>a;
+    cout<<"ENter a Number: ";
+    cin>>b;
+    cout<<"ENter a Number: ";
+    cin>>c;
+    (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
+}
+
+17:05 23-07-2025
+
+
+ As in this code we have to apply multiple conditions and it may give error, so toh resolve this we use conditional statements.
+Conditional statements-
+IF
+IF ELSE
+IF ELSE IF ELSE (LADDER)
+IS IS ELSE(NESTED IF)
+
+IF ----
+if(condition){}
+--
+ int num;
+    cout<<"Enter a number";
+    cin>>num;
+int a=10;
+if(a%2==0){
+cout<<"Even";}
+
+
+ternary ke sare questions if else me kerna hai
+
+IFELSE----
+ int num;
+    cout<<"Enter a number";
+    cin>>num;
+if(a%2==0){
+cout<<"Even";}
+else{
+cout<<"Odd";}
