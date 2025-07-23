@@ -117,20 +117,30 @@ int main ()
 // }
 
 //check the greatest between three numbers?
-{
-    int a;
-    int b;
-    int c;
-    cout<<"Enter a";
-    cin>>a;
-    cout<<"Enter b";
-    cin>>b;
-    cout<<"Enter c";
-    cin>>c;
-    (a>b>c)?cout<<"Greater":cout<<"Not Greater";
-}
+// {
+//     int a;
+//     int b;
+//     int c;
+//     cout<<"Enter a";
+//     cin>>a;
+//     cout<<"Enter b";
+//     cin>>b;
+//     cout<<"Enter c";
+//     cin>>c;
+//     (a>b>c)?cout<<"Greater":cout<<"Not Greater";
+// }
 // {
 //     int a =10;
 //    int b=20;
 //  (a>b)?cout<<"Greater":cout<<"Not Greater";
 // }
+{
+       int a, b, c;
+
+    // Input three numbers
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
+    // Check the greatest number
+    (a >= b && a >= c) || (b >= a && b >= c)?cout << "Greatest number is: " << a: cout << "Greatest number is: " << b;
+        
+}
