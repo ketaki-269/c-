@@ -117,29 +117,25 @@ int main ()
 // }
 
 // check the greatest between three numbers?
-// {
-//     int a,b,c;
-//     cout<<"ENter a Number: ";
-//     cin>>a;
-//     cout<<"ENter a Number: ";
-//     cin>>b;
-//     cout<<"ENter a Number: ";
-//     cin>>c;
-//     (a>b && a>c)?cout<<a:(b>a && b>c)?cout<<b:cout<<c;
-// }
+{
+    int a,b,c;
+    cout<<"Enter a Number: ";
+    cin>>a;
+    cout<<"Enter a Number: ";
+    cin>>b;
+    cout<<"Enter a Number: ";
+    cin>>c;
+    (a>b && a>c)?cout<<a:(b>a && b>c)?cout<<b:cout<<c;
+}
 
 // check the smallest between three numbers?
-{
-
-    int a,b,c;
-    cout<<"ENter a Number: ";
-    cin>>a;
-    cout<<"ENter a Number: ";
-    cin>>b;
-    cout<<"ENter a Number: ";
-    cin>>c;
-
-    (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
-
-
-}
+// {
+//     int a,b,c;
+//     cout<<"Enter a Number: ";
+//     cin>>a;
+//     cout<<"Enter a Number: ";
+//     cin>>b;
+//     cout<<"Enter a Number: ";
+//     cin>>c;
+//     (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
+// }
