@@ -11,7 +11,7 @@ int main ()
 //     (num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
 
-//Check the givenn password is correct or not ?(password-1234)
+// Check the givenn password is correct or not ?(password-1234)
 // {
 //     int password;
 //     cout<<"Enter a Password";
@@ -27,7 +27,7 @@ int main ()
 //     (num>=0)?cout<<"Positve":cout<<"Negative";
 // }
 
-//Check the person is eligiable for vote or not ?
+// Check the person is eligiable for vote or not ?
 // {
 //     int num;
 //     cout<<"Enter age ";
@@ -35,7 +35,7 @@ int main ()
 //     (num>=18)?cout<<"Eligiable":cout<<"Not Eligiable";
 // }
 
-//Check the number is divisible by 2 and 4 both? 
+// Check the number is divisible by 2 and 4 both? 
 // {
 //     int num;
 //     cout<<"Enter a number";
@@ -43,7 +43,7 @@ int main ()
 //     (num%2==0 && num%4==0)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
 
-//Check the number is between 0-50?
+// Check the number is between 0-50?
 // {
 //     int num;
 //     cout<<"Enter a number ";
@@ -52,7 +52,7 @@ int main ()
 
 // }
 
-//Check the year is leap year or not?
+// Check the year is leap year or not?
 // if the year is divisible by 4 then its a leap year.
 // and if the year is divisible by both 4 and 100 then its not a leap year
 // But the year is divisible by 4,100 and 400 then it is leap year
@@ -67,7 +67,7 @@ int main ()
 
 
 
-//Check the givenn character is vowel or constant?
+// Check the givenn character is vowel or constant?
 // {
 //     char character;
 //     cout<<"Enter a character" ;
@@ -78,14 +78,14 @@ int main ()
 
 // 22-07-2025
 
-//Check the ATM pin is correct or not (pin is 1234)?
+// Check the ATM pin is correct or not (pin is 1234)?
 // {
 //     int password;
 //     cout<<"Enter a ATM Password";
 //     cin>>password;
 //     (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
 // }
-//Check the person is pass or fail (passing marks is 33)?
+// Check the person is pass or fail (passing marks is 33)?
 // {
 //     int num;
 //     cout<<"Enter a number ";
@@ -93,7 +93,7 @@ int main ()
 //     (num<=33)?cout<<"Fail":cout<<"Pass";          
 // }
 
-//Check the number is divisible by 2 and above 50?
+// Check the number is divisible by 2 and above 50?
 
 // {
 //     int num;
@@ -101,14 +101,14 @@ int main ()
 //     cin>>num;
 //     (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
-//Check the value is divisible  8 and 10 or not?
+// Check the value is divisible  8 and 10 or not?
 // {
 //     int num;
 //     cout<<"Enter a number";
 //     cin>>num;
 //     (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
-//Check the value is between 50-100?
+// Check the value is between 50-100?
 // {
 //     int num;
 //     cout<<"Enter a number";
@@ -116,7 +116,7 @@ int main ()
 //     (num>=50 && num<=100)?cout<<"Between":cout<<"Not Between";
 // }
 
-//check the greatest between three numbers?
+// check the greatest between three numbers?
 // {
 //     int a;
 //     int b;
@@ -136,11 +136,8 @@ int main ()
 // }
 {
        int a, b, c;
-
-    // Input three numbers
     cout << "Enter three numbers: ";
     cin >> a >> b >> c;
-    // Check the greatest number
-    (a >= b && a >= c) || (b >= a && b >= c)?cout << "Greatest number is: " << a: cout << "Greatest number is: " << b;
+    (a >= b && a >= c) || (b >= a && b >= c)?cout << "Greatest number is: " : cout << "Greatest number is: ";
         
 }
