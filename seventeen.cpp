@@ -117,17 +117,17 @@ int main ()
 // }
 
 //check the greatest between three numbers?
-// {
-//     int a;
-//     int b;
-//     int c;
-//     cout<<"Enter a";
-//     cin>>a;
-//     cout<<"Enter b";
-//     cin>>b;
-//     cout<<"Enter c";
-//     cin>>c;
-// }
+{
+    int a;
+    int b;
+    int c;
+    cout<<"Enter a";
+    cin>>a;
+    cout<<"Enter b";
+    cin>>b;
+    cout<<"Enter c";
+    cin>>c;
+}
 {
     int a =10;
    int b=20;
