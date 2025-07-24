@@ -178,18 +178,41 @@ int main ()
 
 
 //15. check the smallest between three numbers?
-{
-    int a,b,c;
-    cout<<"Enter a Number: ";
-    cin>>a;
-    cout<<"Enter a Number: ";
-    cin>>b;
-    cout<<"Enter a Number: ";
-    cin>>c;
- if (a <= b && a <= c)
-        cout << a;
-    else if (b <= a && b <= c)
-        cout << b;
-    else
-        cout <<  c;  
-}
+// {
+//     int a,b,c;
+//     cout<<"Enter a Number: ";
+//     cin>>a;
+//     cout<<"Enter a Number: ";
+//     cin>>b;
+//     cout<<"Enter a Number: ";
+//     cin>>c;
+//  if (a <= b && a <= c)
+//         cout << a;
+//     else if (b <= a && b <= c)
+//         cout << b;
+//     else
+//         cout <<  c;  
+// }
+
+
+// 16. 0-30 D grade, 30-50 Cgrade, 50-70 B grade , 70-100 A grade? 
+// {
+// int num;
+// cout<<"Enter a number";
+// cin>>num;
+// if(num>=0 && num<=30){
+//     cout<<"D";}
+
+//     else if (num>30 && num<=50){
+//     cout<<"C";}
+
+//         else if (num>50 && num<=70){
+//         cout<<"B";}
+
+//            else if(num>70 && num<=100){
+//            cout<<"A";}
+
+//                    else {
+//                     cout<<"Invalid";}
+//                    }
+
