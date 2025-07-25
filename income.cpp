@@ -15,19 +15,19 @@ int num;
 cout<<"Enter a number";
 cin>>num;
 if(num<=10000){
-    cout<<num+0;}
+    cout<<num+0 ;}
 
 else if(num>10000 && num<=50000){
-    cout<<num+2%;}
+    cout<<num*2/100   ;}
 
 else if(num>50000 && num<=100000){
-    cout<<num+5%;}
+    cout<<num*5/100  ;}
 
 else if(num>100000 && num<=500000){
-    cout<<num+8%;}
+    cout<<num*8/100  ;}
 
 else if(num>500000){
-    cout<<num+10%;}    
+    cout<<num*10/100  ;}    
    else {
             cout<<"Invalid";
         }
