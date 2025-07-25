@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 int main ()
+
+// Q-21 Calculate the bill 
+// 0-50 unit = 5 per unit
+// 50-100 unit= 10 per unit
+// 100- 150 unit = 15 per unit
+// 150 - 200 unit = 20 per unit
+// above 200 unit = 25 per unit 
+
+
 {
 int bill;
 cout<<"Enter a unit";
