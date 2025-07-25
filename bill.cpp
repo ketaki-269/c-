@@ -19,9 +19,10 @@ else if(bill>50 && bill<=100){
     cout<<(bill*10)-250;}
 else if(bill>100 && bill<=150){
     cout<<(bill*15)-750;}
-
-
-
+else if(bill>150 && bill<=200){
+    cout<<(bill*20)-2250;}
+else if(bill>200){
+    cout<<(bill*25)-5250;} 
 
     else{
         cout<<"Invaild";
