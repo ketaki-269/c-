@@ -53,15 +53,15 @@ int main ()
 
 
 // 5. Check the number is divisible by 2 and 4 both? 
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    if(num%2==0 && num%4==0){
-        cout<<"Divisible";}
-        else {
-        cout<<" Not Divisible";}
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     if(num%2==0 && num%4==0){
+//         cout<<"Divisible";}
+//         else {
+//         cout<<" Not Divisible";}
+// }
 
 // 6. Check the number is between 0-50?
 // {
@@ -76,17 +76,17 @@ int main ()
 
 
 //7. Check the year is leap year or not?
-// {
-//     int year;
-//     cout << "Enter a year: ";
-//     cin >> year;
-//     if (year%4==0){
-//         cout << year << " is a Leap Year." ;}
+{
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
+    if (year%4==0){
+        cout << year << " is a Leap Year." ;}
         
-//         else{
-//             cout << year << " is NOT a Leap Year.";
-//         }
-// }
+        else{
+            cout << year << " is NOT a Leap Year.";
+        }
+}
 
 
 //8. Check the givenn character is vowel or constant?
