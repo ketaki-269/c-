@@ -111,12 +111,12 @@ int main ()
 //     (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
 // Check the value is divisible  8 and 10 or not?
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+// }
 // Check the value is between 50-100?
 // {
 //     int num;
@@ -140,16 +140,16 @@ int main ()
 
 // check the smallest between three numbers?
 // In this code we use ternary operator inside ternary operators 
-// {
-//     int a,b,c;
-//     cout<<"Enter a Number: ";
-//     cin>>a;
-//     cout<<"Enter a Number: ";
-//     cin>>b;
-//     cout<<"Enter a Number: ";
-//     cin>>c;
-//     (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
-// }
+{
+    int a,b,c;
+    cout<<"Enter a Number: ";
+    cin>>a;
+    cout<<"Enter a Number: ";
+    cin>>b;
+    cout<<"Enter a Number: ";
+    cin>>c;
+    (a<b && a<c)?cout<<a:(b<a && b<c)?cout<<b:cout<<c;
+}
 
 
 
