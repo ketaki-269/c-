@@ -4,18 +4,18 @@ int main ()
 // If else start Questions
 
 //1  find the number is divisible by 10 or not ?
-{
- int num;
-    cout<<"Enter a number";
-    cin>>num;
-    {
-    if(num%10==0){
-    cout<<"Divisible";}
-        else{
-            cout<<"Not Divisible";}
+// {
+//  int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     {
+//     if(num%10==0){
+//     cout<<"Divisible";}
+//         else{
+//             cout<<"Not Divisible";}
 
-        }
-    }
+//         }
+//     }
 
 //  2.Check the givenn password is correct or not ?(password-1234)
 // {
@@ -41,15 +41,15 @@ int main ()
 // }
 
 //4.  Check the person is eligiable for vote or not ?
-// {
-//     int num;
-//     cout<<"Enter age ";
-//     cin>>num;
-//     if(num>=18){
-//         cout<<"Eligiable";}
-//         else{
-//         cout<<"Not Eligiable";}
-// }
+{
+    int num;
+    cout<<"Enter age ";
+    cin>>num;
+    if(num>=18){
+        cout<<"Eligiable";}
+        else{
+        cout<<"Not Eligiable";}
+}
 
 
 // 5. Check the number is divisible by 2 and 4 both? 
