@@ -95,12 +95,12 @@ int main ()
 //     (password==1234)?cout<<"Correct Password":cout<<"Incorrect Password";  
 // }
 // Check the person is pass or fail (passing marks is 33)?
-// {
-//     int num;
-//     cout<<"Enter a number ";
-//     cin>>num;
-//     (num<=33)?cout<<"Fail":cout<<"Pass";          
-// }
+{
+    int num;
+    cout<<"Enter a number ";
+    cin>>num;
+    (num<=33)?cout<<"Fail":cout<<"Pass";          
+}
 
 // Check the number is divisible by 2 and above 50?
 
