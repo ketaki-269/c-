@@ -41,27 +41,27 @@ int main ()
 // }
 
 //4.  Check the person is eligiable for vote or not ?
-{
-    int num;
-    cout<<"Enter age ";
-    cin>>num;
-    if(num>=18){
-        cout<<"Eligiable";}
-        else{
-        cout<<"Not Eligiable";}
-}
+// {
+//     int num;
+//     cout<<"Enter age ";
+//     cin>>num;
+//     if(num>=18){
+//         cout<<"Eligiable";}
+//         else{
+//         cout<<"Not Eligiable";}
+// }
 
 
 // 5. Check the number is divisible by 2 and 4 both? 
-// {
-//     int num;
-//     cout<<"Enter a number";
-//     cin>>num;
-//     if(num%2==0 && num%4==0){
-//         cout<<"Divisible";}
-//         else {
-//         cout<<" Not Divisible";}
-// }
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    if(num%2==0 && num%4==0){
+        cout<<"Divisible";}
+        else {
+        cout<<" Not Divisible";}
+}
 
 // 6. Check the number is between 0-50?
 // {
