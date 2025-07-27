@@ -5,7 +5,7 @@ int main ()
 
 // 18  Calculate the discount on purchase amount?
 // 0-500=2%
-// 500-100=5%
+// 500-1000=5%
 // 1000-5000=8%
 // 5000-10000=10%
 // above 10000=15%
