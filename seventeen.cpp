@@ -104,19 +104,19 @@ int main ()
 
 // Check the number is divisible by 2 and above 50?
 
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
-}
-// Check the value is divisible  8 and 10 or not?
 // {
 //     int num;
 //     cout<<"Enter a number";
 //     cin>>num;
-//     (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+//     (num%2==0 && num>50)?cout<<"Divisible" :cout<<" Not Divisible";
 // }
+// Check the value is divisible  8 and 10 or not?
+{
+    int num;
+    cout<<"Enter a number";
+    cin>>num;
+    (num%8==0 && num%10==0)?cout<<"Divisible" :cout<<" Not Divisible";
+}
 // Check the value is between 50-100?
 // {
 //     int num;
