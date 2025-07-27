@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main ()
-
+//nestong que-2
 
 {
 string bank;

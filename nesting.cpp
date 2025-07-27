@@ -2,7 +2,7 @@
 using namespace std;
 int main ()
 
- // nesting 
+ // nesting  que-1
 
 // enter amazon or other is Invalid
 // then ask product or service
