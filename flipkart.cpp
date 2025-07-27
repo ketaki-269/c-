@@ -39,9 +39,6 @@ int main ()
     }
     else if (option =="service"){cout<<"Not available";}
    }
-   
-
-
 
   else{
     cout<<"Invalid";
