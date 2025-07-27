@@ -4,18 +4,18 @@ int main ()
 // If else start Questions
 
 //1  find the number is divisible by 10 or not ?
-// {
-//  int num;
-//     cout<<"Enter a number";
-//     cin>>num;
-//     {
-//     if(num%10==0){
-//     cout<<"Divisible";}
-//         else{
-//             cout<<"Not Divisible";}
+{
+ int num;
+    cout<<"Enter a number";
+    cin>>num;
+    {
+    if(num%10==0){
+    cout<<"Divisible";}
+        else{
+            cout<<"Not Divisible";}
 
-//         }
-//     }
+        }
+    }
 
 //  2.Check the givenn password is correct or not ?(password-1234)
 // {
