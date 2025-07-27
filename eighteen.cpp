@@ -126,15 +126,15 @@ int main ()
 
 
 //11. Check the number is divisible by 2 and above 50?
-{
-    int num;
-    cout<<"Enter a number";
-    cin>>num;
-    if (num%2==0 && num>50){
-        cout<<"Divisible" ;}
-        else{
-            cout<<" Not Divisible";}
-}
+// {
+//     int num;
+//     cout<<"Enter a number";
+//     cin>>num;
+//     if (num%2==0 && num>50){
+//         cout<<"Divisible" ;}
+//         else{
+//             cout<<" Not Divisible";}
+// }
 
 //12. Check the value is divisible  8 and 10 or not?
 // {
