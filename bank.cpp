@@ -32,8 +32,7 @@ string bank;
             cout<<"Enter deposite amount:";
             cin>>amt;
             if(amt>0){
-                cout<<"After Deposite:"<<balance+amt;
-            }
+                cout<<"After Deposite:"<<balance+amt;}
             else {
                 cout<<"Invalid amount";}
         }
