@@ -26,7 +26,8 @@ int main ()
       cin>>productorder;
       if(productorder=="shoes"){cout<<"1000";}
       else if (productorder=="clothes"){cout<<"2000";}
-      else{cout<<"Invalid";}
+      else{cout<<"Invalid";
+      }
 
     }
     else if (option =="service"){cout<<"Not available";}
