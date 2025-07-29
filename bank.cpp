@@ -35,8 +35,7 @@ string bank;
                 cout<<"After Deposite:"<<balance+amt;
             }
             else {
-                cout<<"Invalid amount";
-            }
+                cout<<"Invalid amount";}
         }
         else if (option == "Balance_cheque" || option == "Balance_cheque"){cout<<balance;}
         else{cout<<"Wrong option";}
