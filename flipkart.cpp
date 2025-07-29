@@ -41,8 +41,7 @@ int main ()
    }
 
   else{
-    cout<<"Invalid";
-  }
+    cout<<"Invalid";}
 
 
 
