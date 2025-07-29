@@ -42,7 +42,8 @@ int main ()
       else if (orderdinner=="desserts"){cout<<"1000";}
       else{cout<<"Invalid";}
       }
-      else{cout<<"Invalid";}}
+      else{cout<<"Invalid";}
+    }
     else if(option == "Nonveg" ||option == "nonveg"){cout<<"Not Available";}
 }
 
