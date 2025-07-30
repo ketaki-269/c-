@@ -14,12 +14,17 @@ int main ()
 // }
 
 //swapping without taking third variable
+// {
+//     int a =10;
+//     int b= 20;
+//      a=a+b;
+//      b=a-b;
+//      a=a-b;
+//     cout<<a<<endl;
+// cout<<b<<endl;
+// }
+//Reverse vale me hamesha  divide or mode .
+//reverse que
 {
-    int a =10;
-    int b= 20;
-     a=a+b;
-     b=a-b;
-     a=a-b;
-    cout<<a<<endl;
-cout<<b<<endl;
+    
 }
