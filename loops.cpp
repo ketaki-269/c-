@@ -24,20 +24,6 @@ do{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //for loops 
     // Add number form 1 to 10
     //{
