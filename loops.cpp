@@ -2,6 +2,7 @@
 using namespace std;
 
 int main()
+
 // {while
 // int a=1;
 // while(a<=10){
@@ -9,9 +10,6 @@ int main()
 //     a++;
 
 // }}
-
-
-
 
 //do while
 {
@@ -22,7 +20,6 @@ do{
 }
     while(a<=10);
 }
-
 
 //for loops 
     // Add number form 1 to 10
