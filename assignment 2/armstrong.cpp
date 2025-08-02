@@ -16,8 +16,8 @@ int main() {
     }
 
     if (result == num)
-        cout << num << " is an Armstrong number." << endl;
+        cout << num << "  Armstrong number." << endl;
     else
-        cout << num << " is not an Armstrong number." << endl;
+        cout << num << " Not  Armstrong number." << endl;
 
 }
