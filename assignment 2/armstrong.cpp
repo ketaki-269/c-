@@ -10,9 +10,9 @@ int main() {
 
    
     while (real != 0) {
-        remainder = real % 10;      // extract last digit
-        result += remainder * remainder * remainder; // cube it and add
-        real /= 10;                // remove last digit
+        remainder = real % 10;    
+        result += remainder * remainder * remainder; 
+        real /= 10;  
     }
 
     if (result == num)
