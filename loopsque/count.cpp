@@ -1,3 +1,6 @@
+
+//count  the digit in number?
+
 #include <iostream>
 using namespace std;
 
