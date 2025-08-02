@@ -1,4 +1,4 @@
-//check nu. is palindrome or not?
+
 
 #include <iostream>
 using namespace std;

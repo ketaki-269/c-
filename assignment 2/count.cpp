@@ -1,4 +1,4 @@
-//Count the digit in nymber
+
 
 #include <iostream>
 using namespace std;
