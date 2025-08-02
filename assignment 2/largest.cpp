@@ -10,8 +10,8 @@ int main()
 
     while(num != 0)
     {
-        int digit =num%10;
-        if(digit>max){
+        int digit = num%10;
+        if(digit > max){
             max=digit;
 
         }
