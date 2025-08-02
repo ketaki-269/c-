@@ -3,20 +3,21 @@
 using namespace std;
 
 int main() {
-    int num, real, reversed = 0, remainder;
+    int num, real, result = 0, remainder;
     cout << "Enter a number: ";
     cin >> num;
     real = num;
 
-    while (num != 0) {
-        remainder = num % 10;
-        reversed = reversed * 10 + remainder;
-        num /= 10;
+   
+    while (originalNum != 0) {
+        remainder = originalNum % 10;      // extract last digit
+        result += remainder * remainder * remainder; // cube it and add
+        originalNum /= 10;                // remove last digit
     }
 
-    if (real == reversed)
-        cout << "Palindrome";
+    if (result == num)
+        cout << num << " is an Armstrong number." << endl;
     else
-        cout << "Not a palindrome";
+        cout << num << " is not an Armstrong number." << endl;
 
 }
