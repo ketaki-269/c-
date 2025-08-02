@@ -1,4 +1,4 @@
-
+// Write a program to find the smallest digit in a given number.
 #include <iostream>
 using namespace std;
 

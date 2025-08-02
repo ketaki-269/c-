@@ -1,4 +1,4 @@
-
+// Write a program to check whether a number is an Armstrong number or not. 
 #include <iostream>
 using namespace std;
 
