@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int num, original, reversed = 0, remainder;
+    int num, real, reversed = 0, remainder;
     cout << "Enter a number: ";
     cin >> num;
-    original = num;
+    real = num;
 
     while (num != 0) {
         remainder = num % 10;
@@ -13,10 +13,9 @@ int main() {
         num /= 10;
     }
 
-    if (original == reversed)
+    if (real == reversed)
         cout << "Palindrome";
     else
         cout << "Not a palindrome";
 
-    return 0;
 }
