@@ -41,7 +41,7 @@
 //     cout << sum;
 // }
 
-// WAP to find all numbers divisible by 3 and 5 within a range. 
+// 4. WAP to find all numbers divisible by 3 and 5 within a range. 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -57,7 +57,7 @@
 //     }
 // }
 
-// WAP to calculate the sum of squares of the first N natural numbers. 
+// 5. WAP to calculate the sum of squares of the first N natural numbers. 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -72,7 +72,7 @@
 //     cout << sum;
 // }
 
-// WAP print the multiplication table of a number. 
+// 6. WAP print the multiplication table of a number. 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -85,7 +85,7 @@
 //     }
 // }
 
-// WAP to check if a number is a prime number. 
+// 7. WAP to check if a number is a prime number. 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -105,7 +105,7 @@
 //         cout << "Not a Prime " << endl;    
 // }
 
-//WAP to reverse a number?
+// 8. WAP to reverse a number?
 #include <iostream>
 using namespace std;
 int main()
