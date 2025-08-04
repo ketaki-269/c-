@@ -2,14 +2,33 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int num, real, result = 0, remainder;
-    cout << "Enter a number: ";
-    cin >> num;
-    real = num;
+int main() 
+// {
+//     int num, real, result = 0, remainder;
+//     cout << "Enter a number: ";
+//     cin >> num;
+//     real = num;
 
    
-    while (real != 0) {
+//     while (real != 0) {
+//         remainder = real % 10;    
+//         result += remainder * remainder * remainder; 
+//         real /= 10;  
+//     }
+
+//     if (result == num)
+//         cout << num << " is Armstrong number." << endl;
+//     else
+//         cout << num << "is  Not  Armstrong number." << endl;
+
+// }
+
+{
+    int num,real,result = 0, remainder;
+    cout<<"Enter a number";
+    cin>>num;
+    real = num;
+     while (real != 0) {
         remainder = real % 10;    
         result += remainder * remainder * remainder; 
         real /= 10;  
@@ -21,3 +40,4 @@ int main() {
         cout << num << "is  Not  Armstrong number." << endl;
 
 }
+
