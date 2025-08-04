@@ -41,3 +41,33 @@
 //     cout << sum;
 // }
 
+// WAP to find all numbers divisible by 3 and 5 within a range. 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int range ;
+//     cout<<"Enter range :";
+//     cin>>range;
+
+//  for (int i = 1;i <= range;++i) {
+//         if (i % 3 == 0 && i %5==0) {
+//             cout <<i <<endl;
+//          } 
+//     }
+// }
+
+// WAP to calculate the sum of squares of the first N natural numbers. 
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num, sum = 1 ,i= 1;
+    cout << "Enter Number: ";
+    cin >> num;
+    while ( i <= num) {
+        sum += sum + i;  
+        i++;           
+    }
+    cout << sum;
+}
