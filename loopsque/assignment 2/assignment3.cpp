@@ -1,4 +1,4 @@
-// WAP to print the first 10 natural numbers using a loop.  
+//1.  WAP to print the first 10 natural numbers using a loop.  
 // #include <iostream>
 // using namespace std ;
 // int main()
@@ -9,7 +9,7 @@
 
 // }
 
-// WAP to calculate the factorial of a number using a for loop. 
+// 2. WAP to calculate the factorial of a number using a for loop. 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -24,7 +24,7 @@
 //   cout<<result;
 // }
 
-// WAP to find the sum of the first N natural numbers using a while loop.
+// 3. WAP to find the sum of the first N natural numbers using a while loop.
 // #include <iostream>
 // using namespace std;
 // int main()
