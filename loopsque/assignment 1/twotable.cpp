@@ -1,5 +1,4 @@
-
-
+//WAP   to print the multiplication table of 2 from 1-10?
 #include <iostream>
 using namespace std;
 int main(){
