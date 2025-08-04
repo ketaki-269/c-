@@ -25,9 +25,19 @@
 // }
 
 // WAP to find the sum of the first N natural numbers using a while loop.
-#include <iostream>
-using namespace std;
-int main()
-{
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//    int num, sum = 0 ,i= 1;
 
-}
+//     cout << "Enter Number: ";
+//     cin >> num;
+
+//     while ( i <= num) {
+//         sum = sum + i;  
+//         i++;           
+//     }
+//     cout << sum;
+// }
+
