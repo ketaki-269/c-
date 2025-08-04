@@ -58,16 +58,64 @@
 // }
 
 // WAP to calculate the sum of squares of the first N natural numbers. 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//    int num, sum = 0 ,i= 1;
+//     cout << "Enter Number: ";
+//     cin >> num;
+//     while ( i <= num) {
+//         sum += i* i;  
+//         i++;           
+//     }
+//     cout << sum;
+// }
+
+// WAP print the multiplication table of a number. 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num;
+//     cout<<"Enter number of table:";
+//     cin>>num;
+//     for (int i = 1; i <= 10; ++i) {
+//         cout << num << " * " << i << " = " << num * i << endl;
+//     }
+// }
+
+// WAP to check if a number is a prime number. 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num, count=0;
+//     cout <<"Enter number:";
+//     cin>>num;
+   
+//     for (int i  = 1; i <= num ; i++ ){
+//       if(num % i ==0){
+//       count++;
+//       }
+//     }
+//  if (count == 2)
+//         cout << "Prime"<< endl;
+//     else
+//         cout << "Not a Prime " << endl;    
+// }
+
+//WAP to reverse a number?
 #include <iostream>
 using namespace std;
 int main()
 {
-   int num, sum = 1 ,i= 1;
-    cout << "Enter Number: ";
-    cin >> num;
-    while ( i <= num) {
-        sum += sum + i;  
-        i++;           
+     int num ;
+     cout<<"Enter number:";
+     cin>>num;
+    while(num>0){
+        int digit = num%10;
+        cout<<digit<<endl;
+      num=num/10;
     }
-    cout << sum;
 }
