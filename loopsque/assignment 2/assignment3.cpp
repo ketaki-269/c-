@@ -106,16 +106,61 @@
 // }
 
 // 8. WAP to reverse a number?
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//      int num ;
+//      cout<<"Enter number:";
+//      cin>>num;
+//     while(num>0){
+//         int digit = num%10;
+//         cout<<digit<<endl;
+//       num=num/10;
+//     }
+// }
+
+
+// Wap to check prime with diffrent 
+ #include <iostream>
 using namespace std;
 int main()
 {
-     int num ;
-     cout<<"Enter number:";
-     cin>>num;
-    while(num>0){
-        int digit = num%10;
-        cout<<digit<<endl;
-      num=num/10;
+    int num = 8, count=0;
+
+   
+    for (int i  =2; i <= 7 ; i++ ){
+      if(num % i ==0){
+      cout<<"Not a prime";
+      return 0;
+      }
     }
-}
+    cout <<"prime";
+
+  }
+
+
+
+  //WAP to check prime with -ve no.
+
+//    #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num ;
+//     cout<<"Enter number:";
+//     cin>>num;
+//     if(num<2){
+//       cout<<"Not a prime";
+//       return 0 ;
+//     }
+
+//     for (int i=2 ; i <=num ; i++ ){
+//       if(num % i ==0){
+//       cout<<" Prime";
+//       return 0;
+//       }
+//     }
+//     cout <<"Not prime";
+
+//   }
