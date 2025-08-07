@@ -8,7 +8,7 @@ int main()
         for(int c=1 ; c<=5 ; c++){
 -
             if(c<=r){
-                cout<<"*";
+                cout<<"* ";
             }
             else{
                 cout<<" ";
