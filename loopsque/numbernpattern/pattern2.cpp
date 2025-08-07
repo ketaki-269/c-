@@ -17,7 +17,7 @@ int main()
                 a++;
             }
             else{
-                cout<<" ";}
+                cout<<"  ";}
         }
         cout<<endl;
     }
