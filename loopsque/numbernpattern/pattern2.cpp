@@ -13,8 +13,7 @@ int main()
         for(int c=1 ; c<=num ; c++)
         {
 
-            if(c<=r)
-            {
+            if(c<=r){
                 cout<<char(64+a);
                 a++;
             }
