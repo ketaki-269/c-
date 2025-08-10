@@ -18,8 +18,7 @@ int main()
                 cout<<char(64+a);
                 a++;
             }
-            else
-            {
+            else{
                 cout<<"  ";
             } 
             }
