@@ -8,7 +8,8 @@ int main()
     cout<<"Enter a Number: ";
     cin>>num;
 
-    for(int r=1 ; r<=num ; r++){
+    for(int r=1 ; r<=num ; r++)
+    {
 
         for(int c=1 ; c<=num ; c++)
         {
