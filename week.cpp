@@ -27,8 +27,7 @@ cin>>num;
     cout<<"Friday";}
      else if(num==6){
     cout<<"Saturday";}  
-     else if(num==7)
-     {
+     else if(num==7){
     cout<<"Sunday";}
     else{
         cout<<"Invaild";
