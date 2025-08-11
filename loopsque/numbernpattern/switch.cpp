@@ -6,7 +6,8 @@ int main(){
     cout<<"Enter a Number: ";
     cin>>x;
 
-    switch(x + x){
+    switch(x + x)
+    {
         
         case 1:
         cout<<"Monday";
