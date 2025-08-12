@@ -20,7 +20,8 @@ cin>>num;
     else if(num==2){
     cout<<"Tuesday";}
   else if(num==3){
-    cout<<"Wednesday";}
+    cout<<"Wednesday";
+  }
      else if(num==4){
     cout<<"Thrusday";} 
      else if(num==5){
