@@ -15,7 +15,8 @@ int main ()
 int num;
 cout<<"Enter a number";
 cin>>num;
- if(num==1) {
+ if(num==1)
+  {
     cout<<"Monday";}
     else if(num==2){
     cout<<"Tuesday";}
