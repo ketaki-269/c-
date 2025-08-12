@@ -22,6 +22,6 @@ int main()
         int a=9;
         int b=13;
         int c;
-        c=a|b;
+        c=a&b;
         cout<<c;
     }
