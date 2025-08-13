@@ -25,8 +25,8 @@ int main()
         cout<<endl;
     }
 
-    for( int i=0 ; i<=127 ;i++)
-    {
-        cout<<"The Ascii value of "<<i<<" is "<<char(i)<<endl;
-    }
+    // for( int i=0 ; i<=127 ;i++)
+    // {
+    //     cout<<"The Ascii value of "<<i<<" is "<<char(i)<<endl;
+    // }
 }
