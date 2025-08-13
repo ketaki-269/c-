@@ -1,4 +1,10 @@
 //pattern abc
+// Enter a Number: 5
+// A        
+// BC
+// DEF
+// GHIJ
+// KLMNO
 #include <iostream>
 using namespace std;
 int main()
