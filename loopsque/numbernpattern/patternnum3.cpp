@@ -18,7 +18,7 @@ int main()
         for(int c=1 ; c<=num ; c++)
         {
 
-            if(c<=r){
+            if(c<=r){ 
                 cout<<a++ ;
             }
             else{

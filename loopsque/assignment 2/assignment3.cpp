@@ -122,22 +122,22 @@
 
 
 // Wap to check prime with diffrent 
- #include <iostream>
-using namespace std;
-int main()
-{
-    int num = 8, count=0;
+//  #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int num = 8, count=0;
 
    
-    for (int i  =2; i <= 7 ; i++ ){
-      if(num % i ==0){
-      cout<<"Not a prime";
-      return 0;
-      }
-    }
-    cout <<"prime";
+//     for (int i  =2; i <= 7 ; i++ ){
+//       if(num % i ==0){
+//       cout<<"Not a prime";
+//       return 0;
+//       }
+//     }
+//     cout <<"prime";
 
-  }
+//   }
 
 
 

@@ -3,7 +3,10 @@ using namespace std;
 int main()
 {
     int a, b , mx;
-    cin>>a>>b;
+    cout<<"Enter number a: ";
+    cin>>a;
+    cout<<"Enter number b: ";
+    cin>>b;
    (mx=a>b)?cout<<a:cout<<b;
    int l = mx;
     while(1){
@@ -12,5 +15,5 @@ int main()
         }
         mx+=0;
     }
-    cout<<mx;
+    cout<<mx<<endl;
 }
