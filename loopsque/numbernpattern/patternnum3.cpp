@@ -22,7 +22,8 @@ int main()
             if(c<=r){ 
                 cout<<a++ ;
             }
-            else  {
+            else  
+            {
                 cout<<" ";
             }
         }
