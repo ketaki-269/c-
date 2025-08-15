@@ -15,7 +15,9 @@ int main()
     for(int r=1 ; r<=num ; r++)
     {
 
-        for(int c=1 ; c<=num ; c++){
+        for(int c=1 ; c<=num ; c++)
+        {
+
 
             if(c<=r){ 
                 cout<<a++ ;
