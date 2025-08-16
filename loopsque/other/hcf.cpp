@@ -13,6 +13,6 @@ int main()
             hcf=i;
         }
     }
-    cout<<hcf<<" ";
+    cout<<hcf<<"";
 }
 
