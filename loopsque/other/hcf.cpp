@@ -13,8 +13,7 @@ int main()
         if(a%i==0 && b%i==0)
         {
             hcf=i;
-        }
-    }
+        } }
     cout<<hcf<<" ";
 }
 
