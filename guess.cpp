@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int  guess,number =8;
+    int  guess,number = 8;
     cout <<" Guess the number under 10 : ";
         cin>>guess;
 
