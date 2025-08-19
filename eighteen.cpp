@@ -52,7 +52,7 @@ int main ()
 // }
 
 
-// 5. Check the number is divisible by 2 and 4 both? 
+// 5. Check the number is divisible by 2 and 4 both ? 
 // {
 //     int num;
 //     cout<<"Enter a number";
