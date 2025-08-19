@@ -13,7 +13,6 @@ int main ()
 //     cout<<"Divisible";}
 //         else{
 //             cout<<"Not Divisible";}
-
 //         }
 //     }
 
