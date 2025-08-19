@@ -17,7 +17,7 @@ int main ()
 //         }
 //     }
 
-// 2.Check the givenn password is correct or not ?(password-1234)
+// 2.Check the given password is correct or not ?(password-1234)
 // {
 //     int password;
 //     cout<<"Enter a Password";
