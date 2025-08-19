@@ -3,7 +3,7 @@ using namespace std;
 int main ()
 // If else start Questions
 
-//1  find the number is divisible by 10 or not ?
+//1. find the number is divisible by 10 or not ?
 // {
 //  int num;
 //     cout<<"Enter a number";
@@ -17,7 +17,7 @@ int main ()
 //         }
 //     }
 
-//  2.Check the givenn password is correct or not ?(password-1234)
+// 2.Check the givenn password is correct or not ?(password-1234)
 // {
 //     int password;
 //     cout<<"Enter a Password";
