@@ -102,7 +102,7 @@ int main ()
 // }   
 
 
-//9. Check the ATM pin is correct or not (pin is 1234)?
+//9. Check the ATM pin is correct or not (pin is 1234) ?
 // {
 //     int password;
 //     cout<<"Enter a ATM Password";
@@ -113,7 +113,7 @@ int main ()
 //         {cout<<"Incorrect Password";  }
 // }
 
-// 10.Check the person is pass or fail (passing marks is 33)?
+// 10.Check the person is pass or fail (passing marks is 33) ?
 // {
 //     int num;
 //     cout<<"Enter a number ";
