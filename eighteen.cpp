@@ -147,7 +147,7 @@ int main ()
 //        cout<<" Not Divisible";}
 // }
 
-//13. Check the value is between 50-100?
+//13. Check the value is between 50-100 ?
 // {
 //     int num;
 //     cout<<"Enter a number";
