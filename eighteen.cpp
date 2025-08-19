@@ -136,7 +136,7 @@ int main ()
 //             cout<<" Not Divisible";}
 // }
 
-//12. Check the value is divisible  8 and 10 or not?
+//12. Check the value is divisible  8 and 10 or not ?
 // {
 //     int num;
 //     cout<<"Enter a number";
