@@ -125,7 +125,7 @@ int main ()
 // }
 
 
-//11. Check the number is divisible by 2 and above 50?
+//11. Check the number is divisible by 2 and above 50 ?
 // {
 //     int num;
 //     cout<<"Enter a number";
