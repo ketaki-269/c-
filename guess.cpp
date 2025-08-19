@@ -14,7 +14,6 @@ int main()
         }
             else{
                cout <<"Too high ,try a smaller number"<<endl;
-
             }
         
 }
