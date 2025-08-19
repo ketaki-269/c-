@@ -89,7 +89,8 @@ int main ()
 // }
 
 
-//8. Check the givenn character is vowel or constant?
+//8. Check the givenn character is vowel or constant ?
+// 
 // {
 //     char character;
 //     cout<<"Enter a character" ;
