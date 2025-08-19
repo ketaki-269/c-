@@ -63,7 +63,7 @@ int main ()
 //         cout<<" Not Divisible";}
 // }
 
-// 6. Check the number is between 0-50?
+// 6. Check the number is between 0-50 ?
 // {
 //     int num;
 //     cout<<"Enter a number ";
@@ -75,7 +75,7 @@ int main ()
 // }
 
 
-//7. Check the year is leap year or not?
+//7. Check the year is leap year or not ?
 // {
 //     int year;
 //     cout << "Enter a year: ";
