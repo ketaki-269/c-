@@ -158,7 +158,7 @@ int main ()
 //         cout<<"Not Between";}
 // }
 
-//14. check the greatest between three numbers?
+//14. check the greatest between three numbers ?
 
 // {
 //     int a,b,c;
@@ -177,7 +177,7 @@ int main ()
 // }
 
 
-//15. check the smallest between three numbers?
+//15. check the smallest between three numbers ?
 // {
 //     int a,b,c;
 //     cout<<"Enter a Number: ";
@@ -195,7 +195,7 @@ int main ()
 // }
 
 
-// 16. 0-30 D grade, 30-50 Cgrade, 50-70 B grade , 70-100 A grade? 
+// 16. 0-30 D grade, 30-50 Cgrade, 50-70 B grade , 70-100 A grade ? 
 // {
 // int num;
 // cout<<"Enter a number";
