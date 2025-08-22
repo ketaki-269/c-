@@ -19,7 +19,8 @@ int main() {
             }
         }
 
-        if (count == 2) {
+        if (count == 2) 
+        {
             cout << num << " "; 
         }
     }
