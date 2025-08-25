@@ -2,7 +2,8 @@
 #include <iostream>   
 using namespace std;   
 
-int main() {
+int main() 
+{
     int start, end;    
     cout << "Enter start: ";
     cin >> start;
