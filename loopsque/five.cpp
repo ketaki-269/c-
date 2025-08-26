@@ -31,7 +31,8 @@ int main()
     while(num != 0)
     {
         int digit =num%10;
-        if(digit < min){
+        if(digit < min)
+        {
            min=digit;
 
         }
