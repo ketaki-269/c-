@@ -38,5 +38,5 @@ int main()
         num/=10;
        
     }
-     cout<<min;
+    cout<<min;
 }
