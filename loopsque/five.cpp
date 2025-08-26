@@ -28,7 +28,8 @@ int main()
     cout << "Enter a number: ";
     cin >> num;
 
-    while(num != 0){
+    while(num != 0)
+    {
         int digit =num%10;
         if(digit < min){
            min=digit;
