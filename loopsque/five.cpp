@@ -34,7 +34,8 @@ int main()
         if(digit < min){
            min=digit;
 
-        }num/=10;
+        }
+        num/=10;
 
        
     }
