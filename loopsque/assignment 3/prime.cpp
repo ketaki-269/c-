@@ -10,7 +10,8 @@ int main()
     cout << "Enter end: ";
     cin >> end;
 
-    for (int num = start; num <= end; num++) {
+    for (int num = start; num <= end; num++) 
+    {
         int count = 0;  
 
        
