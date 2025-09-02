@@ -11,7 +11,7 @@ int main()
     cin >> end;
 
     for (int num = start; num <= end; num++) 
-    {
+     {
         int count = 0;  
 
        
