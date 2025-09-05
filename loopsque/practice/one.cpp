@@ -1,5 +1,6 @@
-#include&lt;iostream.h&gt;
- int main()
+#include <iostream>
+using namespace std;
+
 int main()
 {
 if(NULL)
