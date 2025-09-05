@@ -1,12 +1,13 @@
 #include&lt;iostream.h&gt;
  int main()
+int main()
 {
 if(NULL)
-cout&lt;&lt;&quot;NULL&quot;;
+cout<<"NULL";
 else if(FALSE)
-cout&lt;&lt;&quot;TRUE&quot;;
+cout<<"TRUE";
 else
-cout&lt;&lt;&quot;FALSE&quot;;
+cout<<"FALSE";
 return 0;
 }
 
