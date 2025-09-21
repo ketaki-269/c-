@@ -28,7 +28,5 @@ else if(bill>200){
     else{
         cout<<"Invaild";
     }
-
-
 }
 
