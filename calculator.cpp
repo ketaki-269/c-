@@ -26,7 +26,8 @@ else if(op=='/'){
     }
 
 else if(op=='%'){
-        cout<<num1%num2;}
+        cout<<num1%num2;
+    }
         else {
             cout<<"Invalid";
         }
